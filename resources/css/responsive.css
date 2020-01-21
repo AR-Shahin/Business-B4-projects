@@ -1,0 +1,204 @@
+@media (min-width:0) and (max-width:575px){
+    .topbar ul{
+        display: block;
+    }
+    .topbar ul li{
+        margin: 0;
+    }
+    .topbar ul li:last-child{
+        display: none;
+    }
+    .topbar ul li:nth-child(2) a{
+        margin-bottom: 10px;
+        margin-top: -10px
+    }
+    nav ul li:after{
+        display: none;
+    }
+    nav{
+        padding: 10px 0!important;
+    }
+    .hero-section .content-wrapper{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .hero-section .content-wrapper h1{
+        font-size: 32px;
+    }
+    .hero-section .content-wrapper .btn{
+        margin-top: 0px;
+        padding: 8px 20px;
+    }
+    section{
+        padding: 30px 0;
+    }
+    .sec-title h2{
+        font-size: 26px;
+    }
+    .sec-title span{
+        width: 10%;
+    }
+    .sec-title p{
+        font-size: 16px;
+    }
+    .services {
+        margin-top: 20px;
+    }
+    .services .card{
+    border: 1px solid;
+     padding: 20px;
+    }
+    .services h5{
+        margin-top: 0
+    }
+    .heading{
+        margin-top: 10px;
+    }
+    .heading .img-wrapper .pos{
+        right: 0;
+        bottom: 0;
+        top: %;
+    }
+    .heading .content{
+        padding: 15px
+    }
+    .pos-1{
+        left: 0;
+        top: 100%;
+    }
+    .heading  .second h4{
+        text-align: left;
+    }
+    .showcase{
+        margin-top: 15px;
+    }
+    .contact-section .down{
+        height: 40px;
+        width: 40px;
+    }
+    .contact-section .down .fas{
+        line-height: 1.9;
+    }
+    .contact-section .popup-form{
+        width: 100%;
+        padding: 15px;
+    }
+    .contact-section .popup-form p{
+        font-size: 14px;
+    }
+    .contact-section .popup-form .style{
+        left: 43%;
+    }
+    .get-in-touch .box{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .get-in-touch{
+        padding: 20px
+    }
+    .get-in-touch .box form{
+        width: 100%;
+    }
+    .get-in-touch ul li{
+        height: 30px;
+        width: 30px;
+    }
+    .get-in-touch ul li a{
+        line-height: 1.9
+    }
+    .get-in-touch p{
+        font-size: 14px;
+    }
+    .get-in-touch .box form .form-btn{
+        margin-top: 10px;
+    }
+    footer{
+        padding: 15px 0;
+    }
+    footer p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width:575.1px) and (max-width:767px){
+    .hero-section .content-wrapper{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    section{
+        padding: 30px 0;
+    }
+    .sec-title h2{
+        font-size: 28px;
+    }
+    .sec-title span{
+        width: 10%;
+    }
+    .sec-title {
+        font-size: 16px;
+    }
+    .services{
+        margin-top: 20px;
+    }
+    .services .card-body{
+        padding: 0;
+    }
+    .services h5{
+        font-size: 14px;
+        margin: 15px 0;
+    }
+    .services p{
+        text-align: justify;
+    }
+    .heading .img-wrapper .pos{
+        right: 0;
+        top: 100%;
+        transform: translateY(-100%)
+    }
+    .heading .content{
+        padding: 20px 30px;
+    }
+    .heading  .second h4{
+        text-align: left;
+    }
+    .pos-1{
+        left: 0;
+    }
+    .showcase{
+        margin-top: 20px;
+    }
+    .contact-section .popup-form{
+        width: 100%;padding: 25px;
+    }
+    .contact-section .popup-form .style{
+        left: 45%;
+        }
+    .get-in-touch .box form{
+        width: 80%;
+    }
+    .get-in-touch{
+        padding: 30px 0;
+    }
+}
+
+@media (min-width:767.1px) and (max-width:991px){
+    .hero-section .content-wrapper{
+        padding-top: 100px ;
+        padding-bottom: 160px;
+    }
+    section{
+        padding: 45px 0;
+    }
+    .sec-title h2{
+        font-size: 30px;
+    }
+    .heading  .second h4{
+        text-align: left;
+    }
+    .contact-section .popup-form{
+        padding: 20px 15px;
+    }
+}
+@media (min-width:991.1px) and (max-width:1200px){
+    
+}
