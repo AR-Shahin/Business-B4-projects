@@ -5,22 +5,24 @@
     .topbar ul li{
         margin: 0;
     }
+    .topbar ul li a{
+        padding-top: 5px;
+    }
+    .topbar ul li:nth-child(2){
+        margin-top: -10px
+    }
     .topbar ul li:last-child{
         display: none;
-    }
-    .topbar ul li:nth-child(2) a{
-        margin-bottom: 10px;
-        margin-top: -10px
     }
     nav ul li:after{
         display: none;
     }
     nav{
-        padding: 10px 0!important;
+        padding: 8px 0!important;
     }
     .hero-section .content-wrapper{
         padding-top: 60px;
-        padding-bottom: 50px;
+        padding-bottom: 60px;
     }
     .hero-section .content-wrapper h1{
         font-size: 32px;
@@ -84,10 +86,12 @@
     }
     .contact-section .popup-form{
         width: 100%;
-        padding: 15px;
+        padding: 30px 15px 15px 15x;
+        
     }
     .contact-section .popup-form p{
         font-size: 14px;
+        z-index: 10;
     }
     .contact-section .popup-form .style{
         left: 43%;
@@ -118,7 +122,7 @@
     }
     .get-in-touch .box form .form-btn{
         margin-top: 15px;
-        padding: 7px 22px;
+        padding: 6px 20px;
     }
     footer{
         padding: 15px 0;
