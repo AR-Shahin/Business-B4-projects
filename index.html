@@ -40,7 +40,7 @@
 
     <div class="container">
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"><img src="resources/images/logo.png" alt="" class="img-fluid"></a>
+            <a class="navbar-brand" href="index.html"><img src="resources/images/logo.png" alt="" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars" style="color: #111"></i>
             </button>
@@ -48,19 +48,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us   </a>
+                        <a class="nav-link" href="#about">About Us   </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">    Our Approch  </a>
+                        <a class="nav-link" href="#approch "> Our Approch  </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Work</a>
+                        <a class="nav-link" href="#work">Our Work</a>
                     </li>
                 </ul>
-                <a href="" class="btn btn-danger">Free Consultation</a>
+                <a href="#modal" class="btn btn-danger"  data-toggle="modal" >Free Consultation</a>
             </div>
         </nav>
     </div>
@@ -70,14 +70,14 @@
     <section class="hero-section">
         <div class="container">
             <div class="content-wrapper">
-                <h1>We Providing</h1>
-                <p>Social Media marketing for businesses</p>
-                <a href="" class="btn btn-warning">Free Consultation</a>
+                <h1 class="wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="1s">We Providing</h1>
+                <p class="wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="1s">Social Media marketing for businesses</p>
+                <a href="" class="btn btn-warning wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="1s">Free Consultation</a>
             </div>
         </div>
     </section>
     <!-- about section -->
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="container">
             <div class="sec-title">
                 <h2>About us</h2>
@@ -135,7 +135,7 @@
 
     <!-- approch section -->
 
-    <section class="approch-section">
+    <section class="approch-section" id="approch ">
         <div class="container">
             <div class="sec-title">
                 <h2>Our Approch</h2>
@@ -212,7 +212,7 @@
                     <!-- col12 -->
                 </div>
                  <div class="row mt-4 second">
-                    <div class="col-12  wow shake" data-wow-duration="1s" data-wow-delay="1.5s">
+                    <div class="col-12 wow rotateInDownLeft" data-wow-duration="1s" data-wow-delay="2.5s">
                         <div class="row no-gutters">
                             <div class="col-md-8 left-side align-items-center d-flex">
                                 <div class="content">
@@ -238,7 +238,7 @@
         <!-- con -->
     </section>
     
-    <section class="work-section">
+    <section class="work-section" id="work">
          <div class="container">
             <div class="sec-title">
                 <h2>About us</h2>
@@ -398,6 +398,32 @@
            <p>Cssauthor.com © 2020 All Rights Reserved</p>
        </div>
    </footer>
+   
+   
+   <!-- modal -->
+   <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Bootstrap core JavaScript -->
     <script src="resources/vendor/jquery/jquery.min.js"></script>
     <script src="resources/vendor/bootstrap/js/bootstrap.min.js"></script>
