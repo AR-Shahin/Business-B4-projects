@@ -33,6 +33,7 @@ email        :
 body{
     font-family: 'Poppins', sans-serif;
     letter-spacing: .5px;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
