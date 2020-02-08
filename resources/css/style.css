@@ -246,7 +246,13 @@ section{
     background: #de2b24;
     color: #fff;
 }
-
+.work-section h2,
+.work-section p{
+    color: #fff;
+}
+.work-section span{
+    background: #fff;
+}
 .work-section .img-box{
     position: relative;
 }
