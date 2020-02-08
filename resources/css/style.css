@@ -246,6 +246,28 @@ section{
     background: #de2b24;
     color: #fff;
 }
+
+.work-section .img-box{
+    position: relative;
+}
+.work-section .img-box .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background: #f35e59;  
+    padding: 90px 0;
+}
+.work-section .img-box .overlay i{
+    font-size: 24px;
+}
+.work-section .img-box .overlay h4{
+    font-size: 22px;
+    margin: 5px 0;
+}
+/*
 .work-section h2{
     color: #fff;
 }
@@ -283,7 +305,7 @@ section{
 .minus{
     margin-top: -5px
 }
-
+*/
 /* contact-section
 */
 
